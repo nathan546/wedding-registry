@@ -1,0 +1,32 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body{
+    height:100%;
+    background-color: #A67E5A;
+    background-image: url("images/background-tile.jpg");
+    background-repeat: repeat-xy;
+    overflow: auto;
+}
+
+#shadowall-one {
+	border: 1px solid #747373;
+}
+
+#shadowall-two {
+	border: 1px solid #656464;
+}
+
+#shadowall-three {
+	border: 1px solid #4e4d4d;
+}
+
+#shadowall-four {
+	border: 1px solid #2a2929;
+}
+

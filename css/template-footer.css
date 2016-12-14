@@ -1,0 +1,69 @@
+
+/*--------------Begin Footer of Webpage-------------------*/
+
+/* Sticky footer stuff */
+
+.stickyFooterWrapper1 {
+	min-height: 100%;
+
+}
+
+.stickyFooterWrapper2 {
+	//overflow:auto;
+	padding-bottom: 41px;
+	min-width: 1204px;
+}
+
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;
+}
+
+.footer-bytefull{
+	position: relative;
+	margin-top: -41px; /* negative value of footer height */
+	height: 41px;
+	min-width: 1204px;
+	//clear:both;
+	background: url("./images/footer/footer.png") repeat-x;
+
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 18px;
+}
+
+/*End sticky footer stuff*/
+
+
+.footer-links-body{
+	padding-top: 10px;
+	//width: 1200px;
+	margin: 0 auto;
+	padding-left: 50px;
+}
+
+.footer-links-content{
+	color: white;
+	text-align: center;
+	float: left;
+}
+
+.footer-links-content a{
+	text-decoration: none;
+	color: white;
+}
+
+
+.footer-text{
+	color: white;
+	text-align: right;
+	float: right;
+	padding-right: 50px;
+}
+
+/*--------------End Footer of Webpage-------------------*/

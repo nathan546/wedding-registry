@@ -1,0 +1,134 @@
+
+/*--------------Begin Header of Webpage-------------------*/
+.header-logo{
+    float: left;
+    color: white;
+    font-family: "Lobster",cursive;
+    font-weight: normal;
+    font-size: 24px;
+    text-shadow: 0px 3px 0px #000;
+    margin-left: 10px;
+}
+
+.header-menu{
+	margin: 0px auto;
+	background: url("./images/header/navbg.png") repeat-x;
+	border: 1px solid #272727;
+}
+
+.header-menu ul
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: 38px;
+}
+
+.header-menu li div
+{
+	position: relative;
+	float: right;
+	height: 38px;
+	border-left: 1px solid #949494;
+	border-right: 1px solid #0000B8;
+        line-height: 38px;
+}
+
+.header-menu li:last-child div{
+	border-left: none;
+}
+
+.header-menu li:first-child div{
+	border-right: none;
+}
+
+.header-subbutton{
+	background: url("./images/header/navbg-hover.png") repeat;
+
+	border-left: 1px solid #0000B8;
+	border-right: 1px solid #0000B8;
+	border-bottom: 1px solid #0000B8;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+
+.header-subbutton:hover{
+	color: grey;
+}
+
+.header-buttoninner{
+	border-left: 1px solid #0000B8;
+	border-right: 1px solid #0000B8;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.header-button a{
+	text-decoration: none;
+	color: white;
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-shadow: 0px 1px 0px #000;
+}
+
+
+.header-button{
+	position: relative;
+	display: inline;
+	text-shadow: 0px -1px 0px #666;
+}
+
+
+.header-button:hover div{
+	background: url("./images/header/navbg-hover.png") repeat-x;
+	border-bottom: 1px solid #0000B8;
+}
+
+
+
+.header-solobutton a{
+	text-decoration: none;
+	color: white;
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-shadow: 0px 1px 0px #000;
+}
+
+
+.header-solobutton{
+	position: relative;
+	display: inline;
+	text-shadow: 0px -1px 0px #666;
+}
+
+
+.header-solobutton:hover div{
+	background: url("./images/header/navbg-hover.png") repeat-x;
+	border-bottom: 1px solid #0000B8;	
+	color: grey;
+}
+
+
+.header-menu li ul
+{
+	display: none;
+}
+
+.header-menu li:hover ul
+{   
+	position: absolute;
+	top: 38px;
+	display: block;
+	min-width: 100%;
+	white-space: nowrap;
+	z-index: 99;
+	padding: 0;
+	margin: 0;
+	left: -2px;
+	list-style-type: none;
+	border-top: 1px solid #0000B8;
+}
+/*--------------End Header of Webpage-------------------*/
+
